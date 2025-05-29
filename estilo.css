@@ -7,26 +7,26 @@ body {
 .tela-inicial {
   width: 100%;
   height: 100vh;
-  background: yellow;
+  background: #1b0033;
   text-align: center;
 }
 
 .logo {
   width: 80%;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .iniciar{
-  background: mistyrose;
+  background: #00ffff;
   font-size: 45px;
-  border: 8px solid snow 
-  margin-top: 120px;
-  color: yellow;
+  border: 15px solid #00bfff; 
+  margin-top: 80px;
+  color: 1b0033;
   padding:10px 20px 10px 20px;
 }
 
  .tela-pergunta{
    width: 100%;
    height: 100vh;
-   background: yellow;
+   background: #1b0033;
  }
