@@ -29,7 +29,7 @@ body {
    width: 100%;
    height: 100vh;
    background: #1b0033;
-   text-aling: center;
+   text-align: center;
  }
  
  .cerebro {
@@ -56,4 +56,28 @@ body {
  
  .botao-responder:active {
    background: lightgray;
+ }
+ 
+ .tela-acertou {
+   width: 100%;
+   height: 100vh;
+   background: #1b0033;
+   text-align: center;
+ }
+ 
+ .acertou {
+   width: 80%;
+   margin-top: 20%;
+ }
+ 
+  .tela-errou {
+   width: 100%;
+   height: 100vh;
+   background: #1b0033;
+   text-align: center;
+ }
+ 
+ .errou {
+   width: 80%;
+   margin-top: 20%;
  }

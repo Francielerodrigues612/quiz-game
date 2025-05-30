@@ -9,16 +9,18 @@
 </head>
 
 <body>
-  <div class="tela-inicial" style="display:none">
+  <div class="tela-inicial" style="display: block">
     <img class="logo" src="logo.png" alt="" />
+    
     <br />
+    
     <button class="iniciar">
       iniciar
     </button>
   </div>
 
-  <div class="tela-pergunta">
-    <img class="cerebro" src="logo.png" alt="" />
+  <div class="tela-pergunta" style="display: none">
+    <img class="cerebro" src="images (2).png" alt="" />
     
     <div class="pergunta">Quando o Brasil ganhou o Penta?</div>
     
@@ -31,5 +33,14 @@
     <button class="botao-responder">1994</button>
     
    </div>
+   <div class="tela-acertou" style="display: none">
+     <img class="acertou" src="ganhou.png" />
+   </div>
+   
+   <div class="tela-errou" style="display: none">
+     <img class="errou" src="perdeu.png" />
+   </div>
+   
+   <script src="logica.js"></script>
  </body>
 </html>
